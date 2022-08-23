@@ -1,0 +1,10 @@
+-- Usando o where (onde)podemos definir uma 'variável'
+
+--Criar uma função que calcula a área de um triangulo
+
+area :: Float-> Float -> Float -> Float
+area a b c = sqrt(s*(s-a)*(s-b)*(s-c))
+	where 
+		s = (a+b+c)/2
+
+
